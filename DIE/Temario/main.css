@@ -1,0 +1,138 @@
+*{
+  padding: 0px;
+    margin: 0px;
+}
+.cabeceraDWS {
+  border: 2px solid white;
+  text-align: center;
+  margin: auto;
+}
+.cabeceraDWC {
+  border: 2px solid white;
+  text-align: center;
+  margin: auto;
+}
+.cabeceraDDI {
+  border: 2px solid white;
+  text-align: center;
+  margin: auto;
+}
+.cabeceraDDA {
+  border: 2px solid white;
+  text-align: center;
+  margin: auto;
+}
+input {
+  background-color: aliceblue;
+  width: 100%;
+  height: 210px;
+  color: white;
+  font-size: 90px;
+  background-color: #6a0000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  animation: infinite;
+}
+.cabeceraPortada {
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  width: 100%;
+  height: 100%;
+  color: aliceblue;
+}
+body {
+  background-color: rgb(30, 30, 30);
+}
+h1 {
+  font-size: 40px;
+}
+.cabeceraDDI {
+  background-color: #6a0000;
+  color: aliceblue;
+  border: 2px solid white;
+}
+.navegacion {
+  background-color: #6a0000;
+  line-height: 20px;
+  float: left;
+  bottom: 10;
+  left: 1;
+  width: 9.6%;
+  height: 850px;
+  border: 2px solid aliceblue;
+  margin-top: auto;
+}
+
+.navegacion p {
+  margin: 0;
+}
+
+.botones {
+  text-align: center;
+  border: 2px solid aliceblue;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.5rem;
+}
+.presentacion {
+  background-color: rgb(30, 30, 30);
+  height: 852px;
+  border: 1px solid white;
+  font-size: 1.5rem;
+  color: white;
+}
+.presentacion h1,
+h2 {
+  color: aliceblue;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.presentacion p {
+  margin: 0;
+}
+.cabezasnav a {
+  text-decoration: none;
+}
+.cabezasnav {
+  margin: auto;
+  width: 500px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+ul,
+ol {
+  list-style: none;
+}
+.nav li a {
+  background-color: #6a0000;
+  color: white;
+  text-decoration: none;
+  padding: 60px 30px;
+  display: inline-block;
+}
+
+.nav > li a:hover {
+  background-color: #434343;
+}
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 240px;
+
+}
+.nav li:hover > ul {
+display: inline-block;
+
+}
+.nav li ul li {
+  position: relative;
+}
+.nav li ul li ul {
+  right: -159px;
+  top: 0px;
+}
+.navfinal {
+  display: inline-block;
+}
